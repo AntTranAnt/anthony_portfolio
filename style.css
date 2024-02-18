@@ -1,5 +1,8 @@
 body {
     margin: 0 auto;
+    background-color: #040405;
+
+    font-family: 'poppins', sans-serif;
 }
 
 .sticky {
@@ -17,13 +20,14 @@ body {
 }
 
 .navbar ul li {
-    padding: 20px;
-
+    display: inline-block;
+    margin: 10px 20px;
 }
 
 .navbar ul li a {
     color: #f5f5f6;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .table_contents {
@@ -34,15 +38,18 @@ body {
 }
 
 .navbar {
-    background-color: #1d2026;
+    /* background-color: #1d2026; */
     height: 5em;
 
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'poppins', sans-serif;
     
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px, 10%;
 }
 
 .navbar img {
@@ -53,14 +60,55 @@ body {
 .green {
     background-color: green;
 }
-
-.About_Me {
-    background-color: aquamarine;
-    height: 30em;
+.blue {
+    background-color: rgb(30, 98, 226);
 }
 
+.Intro {
+    color: white;
+    height: 30em;
+    display: flex;
+}
+
+.about-me-text {
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.about-me-text .job{
+    font-size: 30px;
+}
+
+.about-me-text .intro{
+    font-size: 50px;
+}
+
+.half-container {
+    flex: 1;
+    overflow: hidden;
+}
+
+.About_Me {
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    flex-basis: 50%;
+}
+
+.col-2 {
+    flex-basis: 50%
+}
+
+
 .Projects {
-    background-color:bisque
+    background-color:white;
 }
 
 /* hover effect for navbar
