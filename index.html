@@ -28,12 +28,24 @@
     </section>
 
     <section class="About_Me">
-        <div class="row">
-            <div class="col-1 green">
-                <h1>About Me</h1>
+        <div class="col about green">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aliquam laborum dolorem delectus. Dolores ab minus accusamus corrupti necessitatibus, fugiat earum dicta veniam placeat repellat in quibusdam accusantium nam cumque?</p>
+        </div>
+        <div class="col tabs blue">
+            <div class="tab-title">
+                <p class="tab-link active_link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-link" onclick="opentab('education')">Education</p>
+                <p class="tab-link" onclick="opentab('experience')">Experience</p>
             </div>
-            <div class="col-2 blue">
-                <h1>About Me</h1>
+            <div class="tab-content active_content" id="skills">
+                <p>hello skills</p>
+            </div>
+            <div class="tab-content" id="education">
+                <p>helloeducation</p>
+            </div>
+            <div class="tab-content" id="experience">
+                <p>hello experience</p>
             </div>
         </div>
     </section>
@@ -43,5 +55,7 @@
     <section class="Contact_Me">
         <h2>Contact Me!</h3>
     </section>
+
+    <script src="./script.js"></script>
 </body>
 </html>
