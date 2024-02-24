@@ -67,7 +67,7 @@ body {
 }
 
 .grey {
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.2);
     border-radius: 5px;
 }
 
@@ -174,11 +174,28 @@ body {
     margin-left: 5%;
 }
 
+/* Projects */
+
 .Projects h2 {
+    margin-left: 5%;
     color: white;
 }
 
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.project-grid .project-box {
+    background-color: blue;
+    margin: 5%;
+    height: 25em;
+    border-radius: 10px;
+}
+
 .Contact_Me {
+    margin-left: 5%;
     color: white;
 }
 
