@@ -177,18 +177,19 @@ body {
 /* Projects */
 
 .Projects h2 {
-    margin-left: 5%;
     color: white;
+    text-align: center;
 }
 
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 20px;
+    
 }
 
 .project-grid .project-box {
-    background-color: blue;
+    background-color: rgb(0, 0, 85);
     margin: 5%;
     height: 25em;
     border-radius: 10px;
