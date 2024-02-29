@@ -133,6 +133,10 @@ body {
     flex: 1;
 }
 
+.col:hover {
+    box-shadow:rgba(110, 110, 110, 0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
 .tab-title {
     display: flex;
     margin-left: 5%;
@@ -197,6 +201,14 @@ body {
     flex-direction: column;
     height: 30em;
     margin: 20px;
+}
+
+.project-box:hover {
+    background-color: #10334a;
+    -webkit-box-shadow:rgba(69, 68, 68, 0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(69, 68, 68, 0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(69, 68, 68,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(69, 68, 68, 0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
 .project-box img {
