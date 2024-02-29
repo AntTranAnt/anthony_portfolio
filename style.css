@@ -180,23 +180,15 @@ body {
 
 /* Projects */
 
-.Projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .Projects h2 {
     color: white;
     text-align: center;
-    width: 50%;
 }
 
 .project-grid {
     display: grid;
-    width: 80%;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 60px;
+    grid-gap: 20px;
 }
 
 .project-box {
@@ -204,6 +196,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 30em;
+    margin: 20px;
 }
 
 .project-box img {
