@@ -201,16 +201,34 @@ body {
 
 .project-box img {
     width: 100%;
-    height: 75%;
+    height: 60%;
     border-radius: 10px 10px 0 0;
     display: block;
 }
 
 .overlay {
-    height: 25%;
+    height: 40%;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(21, 106, 204, 0.3));
     border-radius: 0 0 10px 10px;
     color: white;
+}
+
+.overlay-text {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.taglist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.taglist .tag {
+    background-color: rgba(39, 39, 39, 0.5);
+    border-radius: 5px;
+    border: 1px solid #040405;
+    margin: 0px 10px 5px 0px;
+    padding: 4px;
 }
 
 .Contact_Me {
