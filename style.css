@@ -81,6 +81,16 @@ a {
 
 /* Introduction */
 
+.headshot-photo {
+    width: auto;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border-radius: 30%;
+}
+
 .Intro {
     color: white;
     height: 30em;
